@@ -1,0 +1,12 @@
+:root {
+  --font-family: "Roboto", sans-serif;
+
+  --color-black: #333;
+  --color-dark-black: #000;
+  --color-white: #FFF;
+  --color-grey: #BDBEC0;
+  --color-light-grey: #777;
+  --color-dark-grey: #333;
+  --color-green: #6CB71D;
+  --color-green-hover: #579916;
+}

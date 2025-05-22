@@ -1,0 +1,86 @@
+@import url('./normalize.css');
+@import url('./fonts.css');
+@import url('./vars.css');
+
+@import url('./components/header-top.css');
+@import url('./components/header-bot.css');
+@import url('./components/hero.css');
+@import url('./components/services.css');
+@import url('./components/diet.css');
+@import url('./components/about.css');
+@import url('./components/geo.css');
+@import url('./components/footer.css');
+@import url('./media.css');
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+button {
+  transition: all 0.2s ease;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.btn {
+  background-color: var(--color-green);
+  width: 175px;
+  height: 44px;
+  border-radius: 10px;
+  border: none;
+  color: var(--color-white);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.geo__btn {
+  width: 181px;
+  height: 35px;
+}
+
+.btn:hover {
+  background-color: var(--color-green-hover);
+}
+
+.title {
+  color: var(--color-dark-grey);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+}
+
+.text {
+  color: var(--color-black);
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.none {
+  display: none;
+}

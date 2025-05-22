@@ -1,0 +1,43 @@
+.header-top {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.header-top__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-top__item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header-top__geo-text {
+  color: var(--color-black);
+  font-weight: 400;
+}
+
+.header-top__phone {
+  color: var(--color-black);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-weight: 500;
+}
+
+.header-top__time {
+  color: var(--color-black);
+  font-variant-numeric: lining-nums proportional-nums;
+}
+
+.header-top__item:not(:first-child) img {
+  width: 16px;
+}
+
+.header-line {
+  width: 1920px;
+  height: 1px;
+  background-color: var(--color-grey);
+}

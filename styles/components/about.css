@@ -1,0 +1,22 @@
+.about {
+  margin-bottom: 92px;
+}
+
+.about__wrapper {
+  display: flex;
+  gap: 45px;
+  align-items: center;
+}
+
+.about__img {
+  width: 579px;
+}
+
+.about__right {
+  width: 558px;
+}
+
+.about__title {
+  margin-bottom: 38px;
+}
+
